@@ -12,7 +12,8 @@
          background: #eaf3ef; color: #0f1815;
          font-family: "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; }
   .box { max-width: 30rem; text-align: center; line-height: 1.8; }
-  h1 { font-size: 1.125rem; margin: 0 0 .75rem; }
+  h1 { font-size: clamp(1.05rem, 4vw, 1.25rem); line-height: 1.4; margin: 0 0 .75rem;
+       word-break: keep-all; overflow-wrap: anywhere; }
   p { font-size: .875rem; margin: 0 0 1rem; color: #55635e; }
   a { color: #065f46; font-weight: 700; word-break: break-all; }
 </style>
